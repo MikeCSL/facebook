@@ -1,20 +1,81 @@
-*{
-	padding: 0px;
-	margin: 0px;
-}
-
-header{
-	background: #415e9b;
-	height: 82px;
-	border-bottom: 1px solid #133783;
-}
-
 body{
 	background-color: #dfe1ee;
+	margin: 0;
+	padding: 0;
+
 }
-h1{
-	font-size: 30px;
-	font-family: ARIAL;
-	color: white;
-	padding: 20px;
+.header{
+	background: #405d9b;
+	height: 80px;
+	width: 100%;
+}
+.header-izq{
+	font-size: 40px;
+	position: absolute;
+	top: 3%;
+	left: 170px;
+	color: #fff;
+	font-family: Helvetica, Arial, sans-serif;
+}
+.header-der-email{
+	position: absolute;
+	right: 490px;
+	top: 12px;
+	font-size: 12px;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #fff;
+
+}
+.header-der-pass{
+	position: absolute;
+	right: 360px;
+	top: 12px;
+	font-size: 12px;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #fff;
+}
+
+.header-der{
+	position: absolute;
+	right: 90px;
+	top: 36px;
+}
+.header-der-input-email{
+	width: 150px;
+	height: 25px;
+	border: .5px solid black;
+
+}
+
+.header-der-input-pass{
+	width: 150px;
+	height: 25px;
+	border: .5px solid black;
+	margin-left: 5px;
+}
+.header-der-input-boton{
+	height: 25px;
+	background: #21b5bc;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+}
+.header-der-input-boton:hover{
+	height: 25px;
+	background: #3a5b9b;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+}
+.contra_olvidada{
+	color: #fff;
+	text-decoration: none;
+	position: relative;
+	top: 22px;
+	left: -210px;
+	font-size: 14px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+.contra_olvidada:hover{
+	text-decoration: underline;
 }
