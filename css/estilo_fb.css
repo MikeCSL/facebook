@@ -1,5 +1,5 @@
 body{
-	background-color: #dfe1ee;
+	background-color: #F1F2F7;
 	margin: 0;
 	padding: 0;
 
@@ -78,4 +78,93 @@ body{
 }
 .contra_olvidada:hover{
 	text-decoration: underline;
+}
+.izq{
+	width: 55%;
+	position: absolute;
+	top: 20%;
+	left: 9.5%;
+}
+.msj-fb{
+	font-size: 30px;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #405d9b;
+	margin-right: -120px;
+}
+img{
+	margin: 150px 0px 0px 150px;
+}
+.der{
+	width: 45%;
+	position: absolute;
+	top: 16%;
+	left: 56%;
+}
+
+.crea_cuenta{
+	font-family: Helvetica, Arial, sans-serif;
+	color: #373737;
+	font-size: 40px;
+}
+.gratis{
+	font-family: Helvetica, Arial, sans-serif;
+	color: #373737;
+	font-size: 20px;
+}
+.nombre_user{
+	height: 30px;
+	width: 180px;
+	border-radius: 3px;
+	border: 1px solid gray;
+	font-size: 20px;
+
+}
+.correo_user{
+	height: 30px;
+	width: 365px;
+	border-radius: 3px;
+	border: 1px solid gray;
+	font-size: 20px;
+	
+}
+.pass_user{
+	height: 30px;
+	width: 365px;
+	border-radius: 3px;
+	border: 1px solid gray;
+	font-size: 20px;
+	
+}
+.cumple{
+	font-size: 18px;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #3c3033;
+}
+select{
+	height: 30px;
+	width: 55px;
+	padding: 6px;
+}
+a{
+	text-decoration: none;
+	font-family: Helvetica, Arial, sans-serif;
+
+}
+.reg{
+	height: 36px;
+	width: 120px;
+	color: #fff;
+	background: #609421;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.reg:hover{
+	height: 36px;
+	width: 120px;
+	color: #fff;
+	background: #78b763;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
 }
